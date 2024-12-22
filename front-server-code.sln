@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Back", "03 Back", "{68294513-4135-4F15-80B3-CD6FDDA422C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Api Basic", "01 Api Basic", "{B84ABBF8-F956-4EFA-A0AA-E9B68965F69E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiCSharp", "03 Back\01 Api Basic\apiCSharp\apiCSharp.csproj", "{0599EA26-2C7A-40B3-9DB1-3B456C93DFCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0599EA26-2C7A-40B3-9DB1-3B456C93DFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0599EA26-2C7A-40B3-9DB1-3B456C93DFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0599EA26-2C7A-40B3-9DB1-3B456C93DFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0599EA26-2C7A-40B3-9DB1-3B456C93DFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B84ABBF8-F956-4EFA-A0AA-E9B68965F69E} = {68294513-4135-4F15-80B3-CD6FDDA422C5}
+		{0599EA26-2C7A-40B3-9DB1-3B456C93DFCA} = {B84ABBF8-F956-4EFA-A0AA-E9B68965F69E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EFD1A30-4DC1-4822-8762-2F5F4B92D592}
+	EndGlobalSection
+EndGlobal
