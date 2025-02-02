@@ -19,9 +19,9 @@
 
 ### 2.1 HtmlCssJavascript
 
--   2.1.1 HtmlCssJavascript
+-   HtmlCssJavascript
 
--   2.1.2 HtmlCssJavascript crud
+-   HtmlCssJavascript crud
 
 ### 2.2 ReactJs
 

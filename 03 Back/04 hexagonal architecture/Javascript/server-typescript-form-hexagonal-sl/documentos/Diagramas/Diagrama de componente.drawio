@@ -1,0 +1,285 @@
+<mxfile host="65bd71144e">
+    <diagram id="tnPTdwq940Q5IJL-1gsY" name="Arquitetura hexagonal">
+        <mxGraphModel dx="1766" dy="1898" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="258" y="-615" as="sourcePoint"/>
+                        <mxPoint x="514" y="-615" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="258" y="-333" as="sourcePoint"/>
+                        <mxPoint x="514" y="-333" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="175" y="-460" as="sourcePoint"/>
+                        <mxPoint x="235" y="-359" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="554" y="-610" as="sourcePoint"/>
+                        <mxPoint x="616" y="-515" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="-310" y="-828" width="53.5" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;strokeColor=#4D4D4D;strokeWidth=4;" parent="1" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-231" y="-756.54" as="sourcePoint"/>
+                        <mxPoint x="-151" y="-726.45" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Front&lt;br&gt;(Inteface de usuário)" style="html=1;strokeColor=#4D4D4D;rotation=-60;fillColor=#FFFFFF;fontColor=#000000;strokeWidth=4;fontSize=26;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="-198.42000000000002" y="-732" width="247.42" height="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="181" y="-710" as="sourcePoint"/>
+                        <mxPoint x="570" y="-710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="173" y="-238" as="sourcePoint"/>
+                        <mxPoint x="558" y="-230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="35" y="-463" as="sourcePoint"/>
+                        <mxPoint x="132" y="-272" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="94" y="-342"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="138" y="-700" as="sourcePoint"/>
+                        <mxPoint x="19" y="-495" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="616" y="-695" as="sourcePoint"/>
+                        <mxPoint x="740" y="-530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=none;html=1;strokeColor=#4D4D4D;strokeWidth=6;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="744" y="-456" as="sourcePoint"/>
+                        <mxPoint x="601" y="-231" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="Infraestrutura" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=10;fontSize=32;fontColor=#000000;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="276" y="-695" width="243" height="53" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Aplicação" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=4;fontSize=32;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="314" y="-610" width="205" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#4D4D4D;strokeWidth=4;fontSize=26;fontColor=#000000;fillColor=#FFFFFF;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="794" y="-328" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Banco de dados" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=4;fontSize=26;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                    <mxGeometry x="748" y="-233" width="205" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;strokeColor=#4D4D4D;strokeWidth=4;" parent="1" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="690" y="-347" as="sourcePoint"/>
+                        <mxPoint x="770" y="-316.9100000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="ellipse;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;strokeColor=#4D4D4D;strokeWidth=4;fontSize=26;fontColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="284" y="-483.76" width="203" height="121.76" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Domínio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=4;fontSize=32;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="325" y="-483.76" width="140" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;sketch=1;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=#4D4D4D;strokeWidth=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=32;fontColor=default;" parent="1" source="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="128.28571428571422" y="-496.71428571428555" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="IServiçoUP&lt;br&gt;(Adaptador)" style="html=1;strokeColor=#4D4D4D;rotation=-60;fillColor=#FFFFFF;fontColor=#000000;strokeWidth=4;fontSize=26;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                    <mxGeometry x="129" y="-589" width="159" height="81.69" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="IRepositorioUP&lt;br&gt;(Adaptador)" style="html=1;strokeColor=#4D4D4D;rotation=-60;fillColor=#FFFFFF;fontColor=#000000;strokeWidth=4;fontSize=26;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                    <mxGeometry x="464.34000000000003" y="-478.76" width="193.06" height="101" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="index (express)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="-9" y="-610" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="UsuarioRotas" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="15" y="-595" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="ControladoraUsuario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="49" y="-589" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="ServiçoUImplPorta&lt;br&gt;(UseCase)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=0;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="-543" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Usuario&lt;br&gt;(Entity)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=0;" parent="1" vertex="1">
+                    <mxGeometry x="278" y="-427.76" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="RepositorioImplPorta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="519" y="-401" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="543" y="-385" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Sqlite" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=4;fontSize=26;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                    <mxGeometry x="788" y="-381" width="86" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="endArrow=classic;html=1;sketch=1;strokeColor=#4D4D4D;strokeWidth=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-2" y="-654" as="sourcePoint"/>
+                        <mxPoint x="69" y="-623" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=30;" parent="1" vertex="1">
+                    <mxGeometry x="-66" y="-679" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Reponse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=30;" parent="1" vertex="1">
+                    <mxGeometry x="-99" y="-602" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="endArrow=classic;html=1;sketch=1;strokeColor=#4D4D4D;strokeWidth=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="46" y="-593" as="sourcePoint"/>
+                        <mxPoint x="-16" y="-628" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="IServiçoUP&lt;br&gt;(Adaptador)" style="html=1;strokeColor=#4D4D4D;rotation=-60;fillColor=#FFFFFF;fontColor=#000000;strokeWidth=4;fontSize=26;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                    <mxGeometry x="703" y="29" width="159" height="81.69" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="ControladoraUsuario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="566" y="-12" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;sketch=1;strokeColor=#4D4D4D;strokeWidth=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="60" target="56" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="881" y="123" as="sourcePoint"/>
+                        <mxPoint x="1067" y="-97" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="ServiçoUImplPorta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="788" y="115" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="ControladoraUsuario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="-389" y="-71.12" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="IServiçoIUsuario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="-226" y="33.88" width="218" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="A inversão de dependência acontece quando, em vez da &lt;strong&gt;ControladoraUsuario&lt;/strong&gt; depender diretamente de uma implementação concreta de serviço&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;strokeWidth=10;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="-491" y="553.88" width="514" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;strong&gt;IServiçoIUsuario&lt;/strong&gt; → &lt;strong&gt;ServiçoUsuario&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="-420" y="268.88" width="412" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;meta charset=&quot;utf-8&quot;&gt;agora depende de uma &lt;strong&gt;abstração&lt;/strong&gt; (&lt;strong&gt;IServiçoUP&lt;/strong&gt;), e quem implementa essa abstração é &lt;strong&gt;ServiçoUImplPorta&lt;/strong&gt;." style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#FFFFFF;fillColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="792.5" y="588" width="550" height="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&amp;nbsp;depende" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="-256" y="-157" width="182" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Abstração" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="798" y="-91" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Implementa" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="837" y="1" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;strong&gt;ControladoraUsuario&lt;/strong&gt; → depende diretamente de &lt;strong&gt;ServiçoUsuario&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="-552" y="329.88" width="748" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Se precisar mudar &lt;strong&gt;ServiçoUsuario&lt;/strong&gt;, precisa mexer na controladora." style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="-396" y="397.88" width="398" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Antes da inversão de dependência" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-403" y="168.88" width="412" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Depois da inversão de dependência" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="861.5" y="248" width="412" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;strong&gt;IServiçoIUsuario&lt;/strong&gt; → abstração &amp;lt;-&amp;nbsp;&lt;strong&gt;ServiçoUsuario&lt;/strong&gt;" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="801.5" y="302" width="578" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="&lt;strong&gt;ControladoraUsuario&lt;/strong&gt; → depende agora depende de &lt;strong&gt;IServiçoUP&lt;/strong&gt; (uma interface/abstração)." style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="611" y="366" width="1058" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="&lt;strong&gt;ServiçoUImplPorta&lt;/strong&gt; implementa essa interface e pode ser trocado sem afetar a controladora" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="834.5" y="425" width="466" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="endArrow=open;endFill=1;endSize=12;html=1;sketch=1;strokeColor=#4D4D4D;strokeWidth=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=24;fontColor=#4D4D4D;" parent="1" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="439" y="639" as="sourcePoint"/>
+                        <mxPoint x="759" y="639" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="Isso segue o &lt;strong&gt;Princípio da Inversão de Dependência (DIP)&lt;/strong&gt; do SOLID, deixando o código mais flexível e testável." style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="-179" y="723" width="1234" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="Arquitetura hexagonal" style="text;whiteSpace=wrap;html=1;fontSize=50;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="-402" y="-956" width="1234" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="usa - depende" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;rotation=-60;" parent="1" vertex="1">
+                    <mxGeometry x="662" y="-45" width="182" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="endArrow=open;endSize=12;dashed=1;html=1;sketch=1;strokeColor=#4D4D4D;strokeWidth=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=50;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-268" y="-17.12" as="sourcePoint"/>
+                        <mxPoint x="-145" y="42.88" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="" style="endArrow=open;endSize=12;dashed=1;html=1;sketch=1;strokeColor=#4D4D4D;strokeWidth=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=50;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="683" y="21" as="sourcePoint"/>
+                        <mxPoint x="734" y="49" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="Isso cria um acoplamento forte, pois a &lt;strong&gt;controladora depende diretamente da implementação concreta&lt;/strong&gt;." style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="-711" y="-157" width="412" height="127" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="a &lt;strong&gt;controladora &lt;/strong&gt;&lt;span style=&quot;&quot;&gt;não sabe&lt;/span&gt;&lt;strong&gt; quem está implementando IServiçoUP&lt;/strong&gt;, ela só chama métodos da interface." style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="219" y="-122.12" width="412" height="105.12" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&lt;p&gt;&lt;strong&gt;Resumo da regra:&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;As classes de alto nível (ex.: ControladoraUsuario) devem depender de abstrações.&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;As classes de baixo nível (ex.: ServiçoUImplPorta) devem implementar essas abstrações.&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;A dependência sempre aponta para a interface, não para a implementação concreta.&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="-139" y="761" width="1234" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Isso deixa seu código mais modular, testável e fácil de modificar! 🚀" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;" parent="1" vertex="1">
+                    <mxGeometry x="-45" y="995" width="823" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://dicionariotec.com/public_html/images/dip1.png;" parent="1" vertex="1">
+                    <mxGeometry x="1104.9985714285717" y="721.0042857142857" width="520" height="356" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://dicionariotec.com/public_html/images/dip2.png;" parent="1" vertex="1">
+                    <mxGeometry x="-743.0045454545457" y="760.9981818181815" width="520" height="212" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="📂 src  &#10;│  &#10;├── 📂 infraestrutura  # Comunicação externa (HTTP, banco de dados, etc.)  &#10;│   ├── 📂 bancoDeDados  &#10;│   │   ├── database.ts/   # Arquivo de conexão com o banco&#10;│   │    &#10;│   ├── 📂 adaptadores  # Implementações concretas das interfaces da aplicação  &#10;│   │   ├── RepositorioImplPorta.ts   # Implementação do repositório&#10;│   │    &#10;│   ├── 📂 controladores  # Controllers do Express  &#10;│   │   ├── ControladoraUsuario.ts  # Controlador que lida com requisições  &#10;│   │   &#10;│   ├── 📂 rotas  # Definição das rotas HTTP  &#10;│   │   ├── UsuarioRotas.ts  # Define as rotas de usuário&#10;│  &#10;├── 📂 aplicacao  # Regras de negócio e interfaces (casos de uso)  &#10;│   ├── 📂 casosDeUso  &#10;│   │   ├── ServiçoUImplPorta.ts   # Implementação da lógica de negócios&#10;│   │  &#10;│   ├── 📂 portas  # Interfaces usadas na aplicação (abstrações)  &#10;│   │   ├── IServiçoUP.ts # Interface do serviço &#10;│   │   ├── IRepositorioUP.ts  # Interface do repositório &#10;│  &#10;├── 📂 dominio  # Regras de domínio puro  &#10;│   ├── 📂 entidades  &#10;│   │   ├── Usuario.ts # Definição da entidade Usuario&#10;│  &#10;├── index.ts  # Ponto de entrada do Express  &#10;├── package.json # Dependências do projeto&#10;  &#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeWidth=4;fontSize=26;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+                    <mxGeometry x="1045" y="-1018" width="1358" height="991" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;strong&gt;A controladora depende do Express&lt;/strong&gt; (ou seja, de um detalhe da infraestrutura)&lt;br&gt;&lt;strong&gt;iItermediar&lt;/strong&gt; a comunicação entre a web e a aplicação." style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="2047" y="-721" width="457" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;strong&gt;Casos de uso&lt;/strong&gt; (&lt;strong&gt;ServiçoUImplPorta.ts&lt;/strong&gt;) aplicam regras de negócio" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="2057" y="-496.76" width="457" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="&lt;strong&gt;Portas&lt;/strong&gt; (&lt;strong&gt;IServiçoUP.ts&lt;/strong&gt;, &lt;strong&gt;IRepositorioUP.ts&lt;/strong&gt;) garantem abstração e desacoplamento." style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="2065" y="-397.76" width="457" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="Infraestrutura gerencia tudo que toca o &quot;mundo externo&quot;" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="2067" y="-963" width="457" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="baixo acoplamento e alto nível de organização" style="text;whiteSpace=wrap;html=1;fontSize=24;fontFamily=Architects Daughter;fontColor=#4D4D4D;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="1457" y="-1050" width="525" height="51" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
